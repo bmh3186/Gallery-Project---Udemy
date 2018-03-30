@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+
+
+  <head>
+
+
+    <title>Image Gallery</title>
+
+
+  </head>
+
+
+
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <ul class="navbar-header">
+          <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button><!-- code for inserting a hamburger button -->
+          <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Gallery</a>
+        </ul>
+      </div>
+        <div class="collapse navbar-collapse" id="bs-nav-demo">
+        <ul class="nav navbar-nav">
+          <li><a href="#">About</a></li> <!-- the # is used as a placeholder until an actual link is put there -->
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> The Image Gallery</h1>
+        <p>A bunch of random pictures from some website that let's you use their pictures for anything you want</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 thumbnail">
+        <img src="http://i.imgur.com/qK42fUu.jpg"></img>
+      </div>
+      <div class="col-lg-4 col-sm-6 thumbnail">
+        <img src="http://i.imgur.com/qK42fUu.jpg"></img>
+      </div>
+      <div class="col-lg-4 col-sm-6 thumbnail">
+        <img src="http://i.imgur.com/qK42fUu.jpg"></img>
+      </div>
+      <div class="col-lg-4 col-sm-6 thumbnail">
+        <img src="http://i.imgur.com/qK42fUu.jpg"></img>
+      </div>
+      <div class="col-lg-4 col-sm-6 thumbnail">
+        <img src="http://i.imgur.com/qK42fUu.jpg"></img>
+      </div>
+      <div class="col-lg-4 col-sm-6 thumbnail">
+        <img src="http://i.imgur.com/qK42fUu.jpg"></img>
+      </div>
+      <div class="col-lg-4 col-sm-6 thumbnail">
+        <img src="http://i.imgur.com/qK42fUu.jpg"></img>
+      </div>
+      <div class="col-lg-4 col-sm-6 thumbnail">
+        <img src="http://i.imgur.com/qK42fUu.jpg"></img>
+      </div>
+      <div class="col-lg-4 col-sm-6 thumbnail">
+        <img src="http://i.imgur.com/qK42fUu.jpg"></img>
+      </div>
+    </div>
+  </div>
+    <!-- use the above code to have an image gallery with 3 rows of 3 images (3x3 grid) that change when page is resized -->
+
+
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- java script links from navbar html page -->
+    </body>
+
+
+</html>
